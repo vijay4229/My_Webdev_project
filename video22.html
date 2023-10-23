@@ -1,0 +1,39 @@
+<!doctype html>
+<html> 
+ <head></head> 
+ <body> 
+  <h1> Hello </h1> 
+  <div>
+    This is a game, 
+   <br> have fun. :) 
+  </div> 
+ 
+<script type="text/javascript" id="dcoder_script">//Guess the Number Challenge
+   let rn = Math.random() * 100;
+rn = Number.parseInt(rn);
+let score = 100;
+let input
+// Validate the user input
+while (true) {
+   input = prompt("Guess a number between 1 and 100: ");
+  input = Number(input);
+  if (Number.isNaN(input)) {
+    alert("Please enter a valid number.");
+    continue;
+  }
+  break;
+}
+
+// Start the guessing game
+while (input != rn) {
+  if (input > rn) {
+    console.log("Your number is bigger!!");
+  } else {
+    console.log("Your number is smaller!!");
+  }
+  input = prompt("Guess again: ");
+  score--;
+}
+
+console.log("Congratulations! Your guess is right!!");
+console.log("Your score is: " + score);</script></body></html>

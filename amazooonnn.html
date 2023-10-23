@@ -1,0 +1,441 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="mobile-optimized" content="yes"> 
+  <meta name="HandheldFriendly" content="true"> 
+  <meta name="viewport-fit" content="cover"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+ <style type="text/css" id="dcoder_stylesheet">*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: content-box;
+}
+
+.navigation{
+  background-color: #000000;
+  width: 100vw;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  }
+  
+ #imglogo{
+  height: 5vh;
+  margin-left: 20px;
+ }
+ 
+.box1{
+  flex-grow: 3;
+  }
+  
+.box2{
+ flex-grow: 0;
+ margin-right: 20px;
+ }
+ 
+.start{
+  height: 68vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoPcXH8BDAi6WcsA9b0FjRuzP8IFJBqTlvgg&usqp=CAU");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: centre;
+  align-items: centre;
+  
+  }
+  
+.container{
+   font-size: 8vh;
+   font-weight: bold;
+   margin-top: 10vh;
+   margin-left: 5vw;
+   }
+  
+.spotify-free {
+  background-color: white;
+  color: black;
+  height: 5vh;
+  margin-left: 5vw;
+  margin-top: 6vh;
+  width: 50vw;
+  cursor: pointer;
+  border-radius: 8vh;
+  text-align: center;
+  vertical align: middle;
+  padding-top: 2vh;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: black;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.ask{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6vh;
+  font-size: 6.5vh;
+  
+ }
+ 
+.play{
+  display: flex;
+  }
+  
+.info{
+  margin: 10vh 0 3vh 0;
+  height: 20vh;
+  }
+  
+.info1{
+   font-weight: bold;
+   font-size: 4vh;
+   }
+   
+.info2{
+    margin-top: 1.2vh;
+    font-size: 3vh;
+    }
+    
+.end1{
+    height: 60vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoPcXH8BDAi6WcsA9b0FjRuzP8IFJBqTlvgg&usqp=CAU");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    }
+    
+ .end1mess{
+    text-align: center;
+    margin-top: 20vh;
+    }
+    
+ .freee{
+  background-color: white;
+  color: black;
+  height: 5vh;
+  margin-left: 27vw;
+  margin-top: 6vh;
+  width: 50vw;
+  cursor: pointer;
+  border-radius: 8vh;
+  text-align: center;
+  vertical align: middle;
+  padding-top: 2vh;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: black;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  }
+  
+ 
+ .footer{
+    height: 170vh;
+    background-color: black;
+    }
+    
+ #imglogo1{
+    height: 5vh;
+    margin-left: 20px;
+    margin-top: 10vh;
+   }
+   
+ .description {
+     margin-top: 10vh;
+     margin-left: 20px;
+     color: white;
+     }
+     
+ ul li{
+       list-style-type: none;
+       }
+       
+ .foothead{
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 2vh;
+    }
+    
+ .opt{
+   margin-top: 3vh;
+   font-size: 2.5vh;
+   }
+   
+  .description2{
+  margin-top: 10vh;
+  }
+  
+ .iicon{
+   display: flex;
+   margin-top: 18vh;
+   margin-left: 20px;
+   }
+   
+   .insta , .twitter , .facebook{
+   background-color: rgba(50,50,50,0.5);
+   width: 8vh;
+   height: 8vh;
+   border-radius: 4vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 2vw;
+   }
+   
+  .footerend{
+    display: flex;
+    height: 5vh;
+    color: white;
+    margin: 4vh 0 0 15px;
+    
+    }
+    
+   .fe1{
+   flex-grow: 2;
+   vertical-align: bottom;
+   margin-top: 6vh;
+   }
+   
+  span{
+    color: rgba(180,180,180,0.65);
+    font-size: 1.75vh;
+    margin-right: 15px;
+    }
+    
+ .footdes{
+   display: flex;
+   color: rgba(180,180,180,0.65);
+   font-size: 1.75vh;
+   margin-bottom: 2vh;
+   }
+ 
+ .label{
+   margin-right: 7vw;
+   }
+   
+  .ads,.privacypolicy{
+   margin-right: 7vw;
+   }
+   
+  .hov:hover{
+    color: green;
+    }
+    
+   .etc:hover{
+     border: 3px solid black;
+     box-property: content-box;
+     }
+   
+   .panel{
+     background-color: black;
+     color: black;
+     }</style></head> 
+ <body> 
+  <header> 
+   <div class="navigation"> 
+    <div class="box1"> <a href="https://www.spotify.com/in-en/free/"> <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" attr="Spotify logo" id="imglogo"> </a> 
+    </div> 
+    <div class="box2"> <i class="fa-solid fa-bars fa-2xl" style="font-size: 4vh; color: #ffffff;"></i> 
+    </div> 
+   </div> 
+  </header> 
+  <main> 
+   <div class="start"> 
+    <div class="container">
+      Play millions of 
+     <br> songs and 
+     <br> podcasts,for 
+     <br> free. 
+    </div> 
+    <div type="button" class="spotify-free etc">
+      Get Spotify Free 
+    </div> 
+   </div> 
+   <div class="middle"> 
+    <div class="ask">
+      Why Spotify? 
+    </div> 
+    <ul> 
+     <li> 
+      <div class="play"> <i class="fa-solid fa-play" style="margin: 10vh 8vw 3vh 8vw; font-size: 10vh;"></i> 
+       <div class="info"> 
+        <div class="info1">
+          Play your favourites. 
+        </div> 
+        <div class="info2">
+          Listen to the song you love and discover, new music and podcast. 
+        </div> 
+       </div> 
+      </div> </li> 
+     <li> 
+      <div class="play"> <i class="fa-solid fa-swatchbook" style="margin: 10vh 8vw 3vh 8vw; font-size: 10vh;"></i> 
+       <div class="info"> 
+        <div class="info1">
+          Playlists made easy. 
+        </div> 
+        <div class="info2">
+          We'll help you make playlists. Or enjoy playlists made by music experts. 
+        </div> 
+       </div> 
+      </div> </li> 
+     <li> 
+      <div class="play"> <i class="fa-regular fa-heart" style="margin: 10vh 8vw 3vh 8vw; font-size: 10vh;"></i> 
+       <div class="info"> 
+        <div class="info1">
+          Make it yours. 
+        </div> 
+        <div class="info2">
+          Tell us what you like, and we'll recommend music for you. 
+        </div> 
+       </div> 
+      </div> </li> 
+     <li> 
+      <div class="play"> <i class="fa-solid fa-bolt" style="margin: 10vh 8vw 3vh 8vw; font-size: 10vh;"></i> 
+       <div class="info"> 
+        <div class="info1">
+          Save mobile data. 
+        </div> 
+        <div class="info2">
+          To use less data when you play music, turn on Data saver in setting. 
+        </div> 
+       </div> 
+      </div></li> 
+    </ul> 
+   </div> 
+   <div class="end1"> 
+    <div class="end1mess container">
+      Ready? Let's play. 
+    </div> 
+    <div type="button" class="freee etc">
+      Get Spotify Free 
+    </div> 
+   </div> 
+  </main> 
+  <footer> 
+   <div class="footer"> 
+    <div class="footicon"> <a href="https://www.spotify.com/in-en/free/"> <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" id="imglogo1"> </a> 
+    </div> 
+    <div class="description"> 
+     <div class="description1"> 
+      <div class="foothead">
+        Company 
+      </div> 
+      <ul> 
+       <li> 
+        <div class="opt hov">
+          About 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Jobs 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          For the Record 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <div class="description2"> 
+      <div class="foothead">
+        Communities 
+      </div> 
+      <ul> 
+       <li> 
+        <div class="opt hov">
+          For Artists 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Developers 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Advertising 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Investors 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Vendors 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <div class="description2"> 
+      <div class="foothead">
+        Useful links 
+      </div> 
+      <ul> 
+       <li> 
+        <div class="opt hov">
+          Support 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Web Player 
+        </div> </li> 
+       <li> 
+        <div class="opt hov">
+          Free Mobile App 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="iicon"> 
+     <div class="insta"> <i class="fa-brands fa-instagram" style="color: white; font-size: 5vh;" onmouseover="this.style.color='green'"></i> 
+     </div> 
+     <div class="twitter"> <i class="fa-brands fa-twitter" style="color: white; font-size: 5vh;" onmouseover="this.style.color='green'"></i> 
+     </div> 
+     <div class="facebook"> <i class="fa-brands fa-facebook" style="color: white; font-size: 5vh;" onmouseover="this.style.color='green'"></i> 
+     </div> 
+    </div> 
+    <div class="footerend"> 
+     <div class="fe1"> 
+      <div class="footdes"> 
+       <div class="label hov">
+         Legal 
+       </div> 
+       <div class="privacy hov">
+         Privacy Center
+       </div> 
+      </div> 
+      <div class="footdes hov"> 
+       <div class="privacypolicy hov">
+         Privacy Policy
+       </div> 
+       <div class="cookies hov">
+         Cookies
+       </div> 
+      </div> 
+      <div class="footdes"> 
+       <div class="ads hov">
+         About Ads 
+       </div> 
+       <div class="accessibility hov">
+         Accessibility
+       </div> 
+      </div> 
+     </div> 
+     <div clasd="fe2"> 
+      <div class="globe"> <i class="fa-solid fa-earth-asia" style="color: white; font-size: 1.75vh; margin-bottom: 1vh;"></i> <span> India(English)</span> 
+      </div> 
+      <div class="copyright"> <i class="fa-solid fa-copyright" style="color: white; font-size: 1.75vh;"></i> <span> 2023 Spotify AB</span> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ 
+</body></html>
